@@ -6,9 +6,9 @@ La estación da vueltas alrededor de la Tierra y pasa del sol a la sombra. Las l
 
 Vas a hacer un medidor: cuanta más luz, más barritas encendidas.
 
-## Paso 1: medir para siempre
+## Medir para siempre
 
-Del cajón ``||led:LED||`` arrastrá ``||led:graficar barras de 0 hasta 255||`` adentro de ``||basic:para siempre||``.
+Del cajón ``||led:LED||`` arrastrá ``||led:trazar gráfico de barras hasta 255||`` adentro de ``||basic:para siempre||``.
 
 En el primer hueco poné ``||input:nivel de luz||`` (del cajón ``||input:Entrada||``).
 
@@ -20,7 +20,7 @@ basic.forever(function () {
 })
 ```
 
-## Paso 2: la temperatura
+## La temperatura
 
 La placa también sabe la **temperatura**. Con el botón **A** que muestre ``||basic:mostrar número||`` con ``||input:temperatura (°C)||`` adentro.
 
@@ -33,7 +33,7 @@ basic.forever(function () {
 })
 ```
 
-## Paso 3: la noche espacial
+## La noche espacial
 
 Cuando hay muy poca luz, la estación está en la sombra y muestra el código.
 
@@ -51,6 +51,6 @@ basic.forever(function () {
 })
 ```
 
-## Paso 4: a la placa
+## A la placa
 
 Tocá **Descargar**. En la placa de verdad, **tapá las luces con la mano** para que sea de noche. Si no aparece, probá tapándola con un cuaderno. Escribí el código en el juego.

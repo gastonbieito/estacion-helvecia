@@ -6,11 +6,11 @@ En el espacio no se sabe dónde está el piso. La micro:bit tiene un **aceleróm
 
 Vas a hacer que la placa muestre una **flecha** hacia el lado que la inclinás.
 
-## Paso 1: inclinar a la izquierda
+## Inclinar a la izquierda
 
-Del cajón ``||input:Entrada||`` arrastrá ``||input:al agitado||`` y cambiá **agitado** por **inclinar a la izquierda**.
+Del cajón ``||input:Entrada||`` arrastrá ``||input:si agitar||`` y cambiá **agitar** por **inclinar a la izquierda**.
 
-Adentro poné ``||basic:mostrar flecha||`` (está en ``||basic:Básico||`` → **más**) apuntando al **Oeste**.
+Adentro poné ``||basic:mostrar flecha||`` apuntando al **Oeste**.
 
 ```blocks
 input.onGesture(Gesture.TiltLeft, function () {
@@ -18,7 +18,7 @@ input.onGesture(Gesture.TiltLeft, function () {
 })
 ```
 
-## Paso 2: inclinar a la derecha
+## Inclinar a la derecha
 
 Hacé otro igual para **inclinar a la derecha**, con la flecha al **Este**.
 
@@ -31,9 +31,9 @@ input.onGesture(Gesture.TiltRight, function () {
 })
 ```
 
-## Paso 3: derecha y quieta
+## Derecha y quieta
 
-Cuando la placa está acostada sobre la mesa (**pantalla hacia arriba**), muestra un ícono de cara feliz.
+Cuando la placa está acostada sobre la mesa (**pantalla arriba**), muestra un ícono de cara feliz.
 
 ```blocks
 input.onGesture(Gesture.TiltLeft, function () {
@@ -47,7 +47,7 @@ input.onGesture(Gesture.ScreenUp, function () {
 })
 ```
 
-## Paso 4: el código escondido
+## El código escondido
 
 Si levantás la placa de la parte de arriba y la inclinás **hacia vos** (**logo abajo**), muestra el código **ORBITA**.
 
@@ -66,6 +66,6 @@ input.onGesture(Gesture.LogoDown, function () {
 })
 ```
 
-## Paso 5: a la placa
+## A la placa
 
 Tocá **Descargar**. Con la placa enchufada, inclinala despacio para los costados y después hacia vos. Escribí el código en el juego.

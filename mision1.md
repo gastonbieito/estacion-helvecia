@@ -6,7 +6,7 @@ La Estación Helvecia se quedó sin luz. Su faro tiene que volver a latir para q
 
 Vas a programar la micro:bit para que muestre un **corazón que late**, para siempre.
 
-## Paso 1: un corazón grande
+## Un corazón grande
 
 Abrí el cajón ``||basic:Básico||`` y arrastrá ``||basic:mostrar ícono||`` adentro de ``||basic:para siempre||``.
 
@@ -18,7 +18,7 @@ basic.forever(function () {
 })
 ```
 
-## Paso 2: un corazón chico
+## Un corazón chico
 
 Poné otro ``||basic:mostrar ícono||`` debajo del primero y elegí el **corazón chico**.
 
@@ -31,7 +31,7 @@ basic.forever(function () {
 })
 ```
 
-## Paso 3: el código de la misión
+## El código de la misión
 
 Cuando la placa se prende, primero tiene que decir el código de la misión.
 
@@ -45,7 +45,7 @@ basic.forever(function () {
 })
 ```
 
-## Paso 4: a la placa
+## A la placa
 
 Ahora a la placa de verdad:
 

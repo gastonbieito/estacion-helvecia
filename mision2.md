@@ -6,7 +6,7 @@ La estación necesita **10 cargas de energía**. Vas a hacer un panel: el botón
 
 Para guardar cuánta energía hay vas a usar una **variable**: una cajita con un nombre que guarda un número.
 
-## Paso 1: crear la variable
+## Crear la variable
 
 Abrí ``||variables:Variables||`` y tocá **Crear una variable**. Ponele de nombre **energia** (sin tilde).
 
@@ -17,7 +17,7 @@ let energia = 0
 basic.showNumber(energia)
 ```
 
-## Paso 2: el botón A suma
+## El botón A suma
 
 Del cajón ``||input:Entrada||`` arrastrá ``||input:al presionarse el botón A||``.
 
@@ -32,7 +32,7 @@ input.onButtonPressed(Button.A, function () {
 basic.showNumber(energia)
 ```
 
-## Paso 3: el botón B resta
+## El botón B resta
 
 Hacé lo mismo con el botón **B**, pero cambiando energia por **-1**.
 
@@ -51,7 +51,7 @@ input.onButtonPressed(Button.B, function () {
 basic.showNumber(energia)
 ```
 
-## Paso 4: la batería llena
+## La batería llena
 
 Cuando la energía llega a **10**, la estación da el código.
 
@@ -75,7 +75,7 @@ input.onButtonPressed(Button.B, function () {
 basic.showNumber(energia)
 ```
 
-## Paso 5: a la placa
+## A la placa
 
 Tocá **Descargar** con la micro:bit enchufada.
 

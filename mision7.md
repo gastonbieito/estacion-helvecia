@@ -6,7 +6,7 @@ Cada micro:bit tiene una **radio** adentro. Las placas que están en el **mismo 
 
 Vas a mandar mensajes a la placa de otra pareja. El juego te dice cuál es tu **grupo de radio** y con qué pareja te toca.
 
-## Paso 1: el grupo
+## El grupo
 
 Del cajón ``||radio:Radio||`` arrastrá ``||radio:radio establecer grupo 1||`` adentro de ``||basic:al iniciar||``.
 
@@ -16,7 +16,7 @@ Cambiá el **1** por **tu grupo de radio** (está en el juego). La otra pareja t
 radio.setGroup(1)
 ```
 
-## Paso 2: mandar una señal
+## Mandar una señal
 
 Con el botón **A**: ``||radio:radio enviar número 0||`` con el número **1**.
 
@@ -32,12 +32,12 @@ input.onButtonPressed(Button.B, function () {
 radio.setGroup(1)
 ```
 
-## Paso 3: recibir la señal
+## Recibir la señal
 
-Arrastrá ``||radio:al recibir radio receivedNumber||``. Adentro, dos ``||logic:si||``:
+Arrastrá ``||radio:al recibir radio recibirNúmero||``. Adentro, dos ``||logic:si||``:
 
-- si **receivedNumber = 1**, ``||basic:mostrar ícono||`` corazón.
-- si **receivedNumber = 2**, ``||basic:mostrar ícono||`` cara feliz.
+- si **recibirNúmero = 1**, ``||basic:mostrar ícono||`` corazón.
+- si **recibirNúmero = 2**, ``||basic:mostrar ícono||`` cara feliz.
 
 En el simulador aparece una **segunda placa**: tocá A en una y mirá la otra.
 
@@ -59,11 +59,11 @@ input.onButtonPressed(Button.B, function () {
 radio.setGroup(1)
 ```
 
-## Paso 4: el mensaje secreto
+## El mensaje secreto
 
 Con **A+B** se manda una palabra: ``||radio:radio enviar cadena||`` con **RED**.
 
-Y para recibirla: ``||radio:al recibir radio receivedString||`` con ``||basic:mostrar cadena||`` y adentro **receivedString**.
+Y para recibirla: ``||radio:al recibir radio recibirCadena||`` con ``||basic:mostrar cadena||`` y adentro **recibirCadena**.
 
 ```blocks
 radio.onReceivedNumber(function (receivedNumber) {
@@ -89,6 +89,6 @@ input.onButtonPressed(Button.B, function () {
 radio.setGroup(1)
 ```
 
-## Paso 5: a la placa
+## A la placa
 
 Tocá **Descargar**. Cuando la otra pareja también lo tenga, apretá **A+B**: el código aparece **en la placa de ellos**. Ellos te lo dicen y vos lo escribís en el juego. ¡Y al revés!
