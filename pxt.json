@@ -1,6 +1,6 @@
 {
     "name": "estacion-helvecia",
-    "version": "0.0.1",
+    "version": "1.0.0",
     "description": "Misiones de micro:bit para la Estación Helvecia (tutoriales en español)",
     "dependencies": {
         "core": "*",
