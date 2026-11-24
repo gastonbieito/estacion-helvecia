@@ -1,0 +1,24 @@
+{
+    "name": "estacion-helvecia",
+    "version": "0.0.1",
+    "description": "Misiones de micro:bit para la Estación Helvecia (tutoriales en español)",
+    "dependencies": {
+        "core": "*",
+        "radio": "*"
+    },
+    "files": [
+        "README.md",
+        "main.ts",
+        "mision1.md",
+        "mision2.md",
+        "mision3.md",
+        "mision4.md",
+        "mision5.md",
+        "mision6.md",
+        "mision7.md"
+    ],
+    "supportedTargets": [
+        "microbit"
+    ],
+    "preferredEditor": "blocksprj"
+}
