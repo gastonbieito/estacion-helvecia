@@ -1,6 +1,6 @@
 {
     "name": "estacion-helvecia",
-    "version": "1.0.1",
+    "version": "1.0.2",
     "description": "Misiones de micro:bit para la Estación Helvecia (tutoriales en español)",
     "dependencies": {
         "core": "*",
@@ -15,6 +15,7 @@
         "m4.md",
         "m5.md",
         "m6.md",
+        "m6b.md",
         "m7.md"
     ],
     "supportedTargets": [
